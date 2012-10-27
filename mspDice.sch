@@ -1,0 +1,983 @@
+EESchema Schematic File Version 2  date Mon 08 Oct 2012 10:55:34 PM CDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:diy_connectors
+LIBS:diy_diodes
+LIBS:diy_switches
+LIBS:diy_transistors
+LIBS:TI_MSP430_v16
+LIBS:diy_rcl
+LIBS:mspDice-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "9 oct 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6850 6850 0    60   ~ 0
+DP_O
+Text Label 6900 6750 0    60   ~ 0
+G
+Text Label 6900 6650 0    60   ~ 0
+F
+Text Label 6900 6550 0    60   ~ 0
+E
+Text Label 6900 6450 0    60   ~ 0
+D
+Text Label 6900 6350 0    60   ~ 0
+C
+Text Label 6900 6250 0    60   ~ 0
+B
+NoConn ~ 6750 7050
+Text Label 6900 6150 0    60   ~ 0
+A
+Wire Wire Line
+	7100 6850 6750 6850
+Wire Wire Line
+	7100 6750 6750 6750
+Wire Wire Line
+	7100 6650 6750 6650
+Wire Wire Line
+	7100 6550 6750 6550
+Wire Wire Line
+	7100 6450 6750 6450
+Wire Wire Line
+	7100 6350 6750 6350
+Wire Wire Line
+	7100 6250 6750 6250
+Wire Wire Line
+	7100 6150 6750 6150
+Wire Wire Line
+	6600 3300 6200 3300
+Wire Wire Line
+	6600 2800 6300 2800
+Wire Wire Line
+	6600 2300 6250 2300
+Wire Wire Line
+	6600 1800 6150 1800
+Wire Wire Line
+	9400 5150 9400 4250
+Wire Wire Line
+	5100 5150 5100 4250
+Wire Wire Line
+	7550 2850 7400 2850
+Wire Wire Line
+	7400 2850 7400 3050
+Wire Wire Line
+	7400 3050 7000 3050
+Wire Wire Line
+	7550 2650 7350 2650
+Wire Wire Line
+	7350 2650 7350 2550
+Wire Wire Line
+	7350 2550 7000 2550
+Wire Wire Line
+	7550 2450 7450 2450
+Wire Wire Line
+	7450 2450 7450 2050
+Wire Wire Line
+	7450 2050 7000 2050
+Wire Wire Line
+	6150 2950 6150 3550
+Wire Wire Line
+	6150 2950 6100 2950
+Wire Wire Line
+	6250 2750 6250 3050
+Wire Wire Line
+	6250 2750 6100 2750
+Wire Wire Line
+	6200 2350 6200 2050
+Wire Wire Line
+	6200 2350 6100 2350
+Wire Wire Line
+	2250 4800 1900 4800
+Wire Wire Line
+	2250 5000 1900 5000
+Wire Wire Line
+	2250 4700 1900 4700
+Wire Wire Line
+	2250 5300 1900 5300
+Wire Wire Line
+	2250 5200 1900 5200
+Wire Wire Line
+	2250 5100 1900 5100
+Wire Wire Line
+	2250 4900 1900 4900
+Wire Wire Line
+	1200 5200 1550 5200
+Wire Wire Line
+	1200 5000 1550 5000
+Wire Wire Line
+	1200 4800 1550 4800
+Wire Wire Line
+	1200 5300 1550 5300
+Wire Wire Line
+	1200 4900 1550 4900
+Wire Wire Line
+	1200 5100 1550 5100
+Wire Wire Line
+	1200 4700 1550 4700
+Wire Wire Line
+	10900 6150 10550 6150
+Wire Wire Line
+	10900 6350 10550 6350
+Wire Wire Line
+	10900 6050 10550 6050
+Wire Wire Line
+	8350 6550 8700 6550
+Wire Wire Line
+	8350 6350 8700 6350
+Wire Wire Line
+	8350 6150 8700 6150
+Wire Wire Line
+	10900 6650 10550 6650
+Wire Wire Line
+	10900 6550 10550 6550
+Wire Wire Line
+	8350 6650 8700 6650
+Wire Wire Line
+	8350 6250 8700 6250
+Wire Wire Line
+	8350 6450 8700 6450
+Wire Wire Line
+	8350 6050 8700 6050
+Wire Wire Line
+	10900 6450 10550 6450
+Wire Wire Line
+	10900 6250 10550 6250
+Connection ~ 1400 3600
+Wire Wire Line
+	1150 3600 1700 3600
+Wire Wire Line
+	4100 3650 4400 3650
+Wire Wire Line
+	9100 2600 8750 2600
+Wire Wire Line
+	9100 2400 8750 2400
+Wire Wire Line
+	9100 3000 8750 3000
+Wire Wire Line
+	2400 6400 2000 6400
+Connection ~ 1150 6200
+Wire Wire Line
+	900  6200 1150 6200
+Wire Wire Line
+	8650 4250 9000 4250
+Wire Wire Line
+	10050 3900 9700 3900
+Wire Wire Line
+	9700 3900 9700 4050
+Wire Wire Line
+	9700 4450 9700 4600
+Wire Wire Line
+	9700 4600 10050 4600
+Wire Wire Line
+	8600 4600 8250 4600
+Wire Wire Line
+	8250 4600 8250 4450
+Wire Wire Line
+	8250 4050 8250 3900
+Wire Wire Line
+	8250 3900 8600 3900
+Wire Wire Line
+	7200 4250 7550 4250
+Wire Wire Line
+	5800 4250 6150 4250
+Wire Wire Line
+	7200 3900 6850 3900
+Wire Wire Line
+	6850 3900 6850 4050
+Wire Wire Line
+	6850 4450 6850 4600
+Wire Wire Line
+	6850 4600 7200 4600
+Wire Wire Line
+	5750 4600 5400 4600
+Wire Wire Line
+	5400 4600 5400 4450
+Wire Wire Line
+	5400 4050 5400 3900
+Wire Wire Line
+	5400 3900 5750 3900
+Wire Wire Line
+	1700 3950 1350 3950
+Wire Wire Line
+	2100 7450 2450 7450
+Wire Wire Line
+	3800 6100 3500 6100
+Wire Wire Line
+	3500 5700 4200 5700
+Wire Wire Line
+	3800 6000 3500 6000
+Wire Wire Line
+	3850 2300 3500 2300
+Wire Wire Line
+	3850 2500 3500 2500
+Wire Wire Line
+	1300 2100 1650 2100
+Wire Wire Line
+	1300 2500 1650 2500
+Wire Wire Line
+	1300 2300 1650 2300
+Wire Wire Line
+	4400 2450 4700 2450
+Wire Wire Line
+	4400 2250 4700 2250
+Wire Wire Line
+	1300 2700 1650 2700
+Wire Wire Line
+	3850 2600 3500 2600
+Wire Wire Line
+	3850 2700 3500 2700
+Wire Wire Line
+	1300 2200 1650 2200
+Wire Wire Line
+	4400 2750 4700 2750
+Wire Wire Line
+	4400 2850 4700 2850
+Wire Wire Line
+	1300 2400 1650 2400
+Wire Wire Line
+	1300 2600 1650 2600
+Wire Wire Line
+	3850 2100 3500 2100
+Wire Wire Line
+	3850 2400 3500 2400
+Wire Wire Line
+	3850 2200 3500 2200
+Wire Wire Line
+	3800 5900 3500 5900
+Wire Wire Line
+	3500 6200 3800 6200
+Wire Wire Line
+	3800 6200 3800 6350
+Wire Wire Line
+	3800 5800 3500 5800
+Wire Wire Line
+	4200 5700 4200 5900
+Wire Wire Line
+	2800 7050 2450 7050
+Wire Wire Line
+	1700 4050 1350 4050
+Wire Wire Line
+	4350 4250 4700 4250
+Wire Wire Line
+	1400 6000 1150 6000
+Wire Wire Line
+	1150 6000 1150 6400
+Wire Wire Line
+	1150 6400 1400 6400
+Wire Wire Line
+	2400 6000 2000 6000
+Wire Wire Line
+	4400 2550 4700 2550
+Wire Wire Line
+	9100 2300 8750 2300
+Wire Wire Line
+	9100 2500 8750 2500
+Wire Wire Line
+	7000 3550 7350 3550
+Wire Wire Line
+	4700 3250 4400 3250
+Wire Wire Line
+	1400 3200 2000 3200
+Connection ~ 1700 3200
+Wire Wire Line
+	6100 2250 6150 2250
+Wire Wire Line
+	6150 2250 6150 1800
+Wire Wire Line
+	6100 2450 6250 2450
+Wire Wire Line
+	6250 2450 6250 2300
+Wire Wire Line
+	6100 2650 6300 2650
+Wire Wire Line
+	6300 2650 6300 2800
+Wire Wire Line
+	6100 2850 6200 2850
+Wire Wire Line
+	6200 2850 6200 3300
+Wire Wire Line
+	7000 1800 7500 1800
+Wire Wire Line
+	7500 1800 7500 2350
+Wire Wire Line
+	7500 2350 7550 2350
+Wire Wire Line
+	7000 2300 7400 2300
+Wire Wire Line
+	7400 2300 7400 2550
+Wire Wire Line
+	7400 2550 7550 2550
+Wire Wire Line
+	7000 2800 7350 2800
+Wire Wire Line
+	7350 2800 7350 2750
+Wire Wire Line
+	7350 2750 7550 2750
+Wire Wire Line
+	7000 3300 7450 3300
+Wire Wire Line
+	7450 3300 7450 2950
+Wire Wire Line
+	7450 2950 7550 2950
+Wire Wire Line
+	5750 4800 5400 4800
+Wire Wire Line
+	5400 4800 5400 4950
+Wire Wire Line
+	5400 5350 5400 5500
+Wire Wire Line
+	5400 5500 5750 5500
+Wire Wire Line
+	7200 5500 6850 5500
+Wire Wire Line
+	6850 5500 6850 5350
+Wire Wire Line
+	6850 4950 6850 4800
+Wire Wire Line
+	6850 4800 7200 4800
+Wire Wire Line
+	8600 4800 8250 4800
+Wire Wire Line
+	8250 4800 8250 4950
+Wire Wire Line
+	8250 5350 8250 5500
+Wire Wire Line
+	8250 5500 8600 5500
+Wire Wire Line
+	10050 5500 9700 5500
+Wire Wire Line
+	9700 5500 9700 5350
+Wire Wire Line
+	9700 4950 9700 4800
+Wire Wire Line
+	9700 4800 10050 4800
+Wire Wire Line
+	6550 5150 6550 4250
+Wire Wire Line
+	7950 5150 7950 4250
+Wire Wire Line
+	6200 2050 6600 2050
+Wire Wire Line
+	6600 2550 6100 2550
+Wire Wire Line
+	6250 3050 6600 3050
+Wire Wire Line
+	6150 3550 6600 3550
+Wire Wire Line
+	5050 6450 5350 6450
+Wire Wire Line
+	5050 6750 5350 6750
+Wire Wire Line
+	5050 6650 5350 6650
+Wire Wire Line
+	5050 6150 5350 6150
+Wire Wire Line
+	5050 6350 5350 6350
+Text Label 5050 6150 0    60   ~ 0
+D1IN
+Text Label 5050 6650 0    60   ~ 0
+LATCH
+Text Label 5050 6350 0    60   ~ 0
+SCK
+Text Label 5050 6750 0    60   ~ 0
+EN
+$Comp
+L 74LS595 U?
+U 1 1 50739FE9
+P 6050 6600
+F 0 "U?" H 6200 7200 70  0000 C CNN
+F 1 "74HC595" H 6050 6000 70  0000 C CNN
+	1    6050 6600
+	1    0    0    -1  
+$EndComp
+Text Label 5050 6450 0    60   ~ 0
+CLR
+Text Label 6350 3550 0    60   ~ 0
+DP_O
+Text Label 6400 3300 0    60   ~ 0
+G
+Text Label 6400 3050 0    60   ~ 0
+F
+Text Label 6400 2800 0    60   ~ 0
+E
+Text Label 6400 2550 0    60   ~ 0
+D
+Text Label 6400 2300 0    60   ~ 0
+C
+Text Label 6400 2050 0    60   ~ 0
+B
+Text Label 6400 1800 0    60   ~ 0
+A
+Text Notes 5050 5700 0    60   ~ 0
+Use a PNP, I don't care. \n2N4403 seems better suited than 2N3906, though,\nbecause amplifier gain (hfe) is assumed to be 80.
+$Comp
+L PNP Q8
+U 1 1 5073786A
+P 9600 5150
+F 0 "Q8" H 9600 5000 60  0000 R CNN
+F 1 "2N4403" H 10150 5300 60  0000 R CNN
+	1    9600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP Q7
+U 1 1 50737869
+P 8150 5150
+F 0 "Q7" H 8150 5000 60  0000 R CNN
+F 1 "2N4403" H 8700 5300 60  0000 R CNN
+	1    8150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP Q6
+U 1 1 50737867
+P 6750 5150
+F 0 "Q6" H 6750 5000 60  0000 R CNN
+F 1 "2N4403" H 7300 5300 60  0000 R CNN
+	1    6750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP Q5
+U 1 1 50737854
+P 5300 5150
+F 0 "Q5" H 5300 5000 60  0000 R CNN
+F 1 "2N4403" H 5850 5300 60  0000 R CNN
+	1    5300 5150
+	1    0    0    -1  
+$EndComp
+Text Label 5550 4800 0    60   ~ 0
+VCC
+Text Label 5600 5500 0    60   ~ 0
+AN1
+Text Label 7050 5500 0    60   ~ 0
+AN2
+Text Label 7000 4800 0    60   ~ 0
+VCC
+Text Label 8400 4800 0    60   ~ 0
+VCC
+Text Label 8450 5500 0    60   ~ 0
+AN3
+Text Label 9900 5500 0    60   ~ 0
+AN4
+Text Label 9850 4800 0    60   ~ 0
+VCC
+$Comp
+L R_US R14
+U 1 1 50725209
+P 9200 4250
+F 0 "R14" V 9280 4250 50  0000 C CNN
+F 1 "1K" V 9120 4250 50  0000 C CNN
+	1    9200 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R13
+U 1 1 50725207
+P 7750 4250
+F 0 "R13" V 7830 4250 50  0000 C CNN
+F 1 "1K" V 7670 4250 50  0000 C CNN
+	1    7750 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R12
+U 1 1 50725206
+P 6350 4250
+F 0 "R12" V 6430 4250 50  0000 C CNN
+F 1 "1K" V 6270 4250 50  0000 C CNN
+	1    6350 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R11
+U 1 1 507250F4
+P 4900 4250
+F 0 "R11" V 4980 4250 50  0000 C CNN
+F 1 "1K" V 4820 4250 50  0000 C CNN
+	1    4900 4250
+	0    1    1    0   
+$EndComp
+Text Notes 7650 1950 0    60   ~ 0
+Assuming a 1V difference between source and \nLED forward voltage, and desired current of 20mA
+Text Notes 3800 4650 0    60   ~ 0
+Normally off, Base off with HIGH
+$Comp
+L R_US R7
+U 1 1 507230FD
+P 6800 2800
+F 0 "R7" V 6880 2800 50  0000 C CNN
+F 1 "56" V 6720 2800 50  0000 C CNN
+	1    6800 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R8
+U 1 1 507230FC
+P 6800 3050
+F 0 "R8" V 6880 3050 50  0000 C CNN
+F 1 "56" V 6720 3050 50  0000 C CNN
+	1    6800 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R9
+U 1 1 507230FB
+P 6800 3300
+F 0 "R9" V 6880 3300 50  0000 C CNN
+F 1 "56" V 6720 3300 50  0000 C CNN
+	1    6800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R10
+U 1 1 507230FA
+P 6800 3550
+F 0 "R10" V 6880 3550 50  0000 C CNN
+F 1 "56" V 6720 3550 50  0000 C CNN
+	1    6800 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R6
+U 1 1 507230F0
+P 6800 2550
+F 0 "R6" V 6880 2550 50  0000 C CNN
+F 1 "56" V 6720 2550 50  0000 C CNN
+	1    6800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R5
+U 1 1 507230EE
+P 6800 2300
+F 0 "R5" V 6880 2300 50  0000 C CNN
+F 1 "56" V 6720 2300 50  0000 C CNN
+	1    6800 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R4
+U 1 1 507230D2
+P 6800 2050
+F 0 "R4" V 6880 2050 50  0000 C CNN
+F 1 "56" V 6720 2050 50  0000 C CNN
+	1    6800 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_US R3
+U 1 1 507230C3
+P 6800 1800
+F 0 "R3" V 6880 1800 50  0000 C CNN
+F 1 "56" V 6720 1800 50  0000 C CNN
+	1    6800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 507203B7
+P 4400 3450
+F 0 "C3" H 4450 3550 50  0000 L CNN
+F 1 "0.1uF" H 4450 3350 50  0000 L CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+Text Notes 950  4500 0    60   ~ 0
+Breakout headers, launchpad style
+$Comp
+L CONNECTOR_7 P3
+U 1 1 507104E2
+P 1150 5050
+F 0 "P3" H 1150 5500 50  0000 L CNN
+F 1 "CONNECTOR_7" H 1150 4700 50  0000 L CNN
+	1    1150 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR_7 P4
+U 1 1 507104DE
+P 2300 5050
+F 0 "P4" H 2300 5500 50  0000 L CNN
+F 1 "CONNECTOR_7" H 2300 4700 50  0000 L CNN
+	1    2300 5050
+	1    0    0    -1  
+$EndComp
+Text Label 2050 5300 0    60   ~ 0
+D1IN
+Text Label 2150 5200 0    60   ~ 0
+EN
+Text Label 2050 4700 0    60   ~ 0
+GND
+Text Label 2050 5000 0    60   ~ 0
+TEST
+Text Label 2000 5100 0    60   ~ 0
+RESET
+Text Label 2000 4800 0    60   ~ 0
+NEXT
+Text Label 2000 4900 0    60   ~ 0
+PREV
+Text Label 1200 5300 0    60   ~ 0
+SCLK
+Text Label 1200 4800 0    60   ~ 0
+LATCH
+Text Label 1200 4900 0    60   ~ 0
+DIGIT1
+Text Label 1200 5000 0    60   ~ 0
+DIGIT2
+Text Label 1200 5100 0    60   ~ 0
+DIGIT3
+Text Label 1200 5200 0    60   ~ 0
+DIGIT4
+Text Label 1200 4700 0    60   ~ 0
+VCC
+Text Notes 8300 7050 0    60   ~ 0
+the dummy symbol for the extra TSSOP footprint we have
+$Comp
+L G2X[2/3]1---N14 U3
+U 1 1 507100CB
+P 9550 6350
+F 0 "U3" V 9600 5900 60  0000 C CNN
+F 1 "MSP430G2231" H 9700 6400 60  0000 C CNN
+	1    9550 6350
+	1    0    0    -1  
+$EndComp
+Text Label 8350 6650 0    60   ~ 0
+SCLK
+Text Label 10700 6650 0    60   ~ 0
+D1IN
+Text Label 10800 6550 0    60   ~ 0
+EN
+Text Label 8350 6150 0    60   ~ 0
+LATCH
+Text Label 8350 6250 0    60   ~ 0
+DIGIT1
+Text Label 8350 6350 0    60   ~ 0
+DIGIT2
+Text Label 8350 6450 0    60   ~ 0
+DIGIT3
+Text Label 8350 6550 0    60   ~ 0
+DIGIT4
+Text Label 8350 6050 0    60   ~ 0
+VCC
+Text Label 10700 6050 0    60   ~ 0
+GND
+Text Label 10700 6350 0    60   ~ 0
+TEST
+Text Label 10650 6450 0    60   ~ 0
+RESET
+Text Label 10650 6150 0    60   ~ 0
+NEXT
+Text Label 10650 6250 0    60   ~ 0
+PREV
+$Comp
+L C C2
+U 1 1 50639448
+P 1700 3400
+F 0 "C2" H 1750 3500 50  0000 L CNN
+F 1 "0.1uF" H 1750 3300 50  0000 L CNN
+	1    1700 3400
+	1    0    0    -1  
+$EndComp
+Text Label 1850 3200 0    60   ~ 0
+VCC
+Text Label 1150 3600 0    60   ~ 0
+GND
+Text Label 4150 3650 0    60   ~ 0
+GND
+Text Label 4550 3250 0    60   ~ 0
+VCC
+$Comp
+L CP_US C1
+U 1 1 5063940B
+P 1400 3400
+F 0 "C1" H 1450 3500 50  0000 L CNN
+F 1 "10uF" H 1450 3300 50  0000 L CNN
+	1    1400 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 8150 3450 0    60   ~ 0
+Use whatever P-FET you want.
+Text Label 8950 2300 0    60   ~ 0
+AN1
+Text Label 8950 2400 0    60   ~ 0
+AN2
+Text Label 8950 2500 0    60   ~ 0
+AN3
+Text Label 8950 2600 0    60   ~ 0
+AN4
+Text Label 9000 3000 0    60   ~ 0
+DP
+Text Label 7250 3550 0    60   ~ 0
+DP
+$Comp
+L 4DIGIT DIS1
+U 1 1 506371A5
+P 8150 2750
+F 0 "DIS1" H 8150 3300 60  0000 C CNN
+F 1 "4DIGIT" H 8150 2300 60  0000 C CNN
+	1    8150 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 2000 3900 0    60   ~ 0
+Pull-downs: NEXT, PREV\nDefault high: DIGITx, EN, LATCH
+$Comp
+L R_US R1
+U 1 1 50636A3F
+P 2450 7250
+F 0 "R1" V 2530 7250 50  0000 C CNN
+F 1 "10K" V 2370 7250 50  0000 C CNN
+	1    2450 7250
+	1    0    0    -1  
+$EndComp
+Text Label 4400 2550 0    60   ~ 0
+CLR
+$Comp
+L 74LS595 U2
+U 1 1 505FC3D7
+P 5400 2700
+F 0 "U2" H 5550 3300 70  0000 C CNN
+F 1 "74HC595" H 5400 2100 70  0000 C CNN
+	1    5400 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 3150
+Text Notes 1200 6700 0    60   ~ 0
+Interface Buttons with\ninternal 30K Pull-downs
+Text Label 2200 6000 0    60   ~ 0
+NEXT
+Text Label 2200 6400 0    60   ~ 0
+PREV
+Text Label 900  6200 0    60   ~ 0
+VCC
+$Comp
+L SW_PUSH SW2
+U 1 1 50636CFC
+P 1700 6400
+F 0 "SW2" H 1850 6510 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 6320 50  0000 C CNN
+	1    1700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 50636CFA
+P 1700 6000
+F 0 "SW1" H 1850 6110 50  0000 C CNN
+F 1 "SW_PUSH" H 1700 5920 50  0000 C CNN
+	1    1700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_P Q4
+U 1 1 50636CA2
+P 9600 4250
+F 0 "Q4" H 9600 4440 60  0000 R CNN
+F 1 "FDN342P" H 9600 4070 60  0000 R CNN
+	1    9600 4250
+	1    0    0    1   
+$EndComp
+Text Label 9850 3900 0    60   ~ 0
+VCC
+Text Label 8650 4250 0    60   ~ 0
+DIGIT4
+Text Label 9900 4600 0    60   ~ 0
+AN4
+Text Label 8450 4600 0    60   ~ 0
+AN3
+Text Label 7200 4250 0    60   ~ 0
+DIGIT3
+Text Label 8400 3900 0    60   ~ 0
+VCC
+$Comp
+L MOSFET_P Q3
+U 1 1 50636C98
+P 8150 4250
+F 0 "Q3" H 8150 4440 60  0000 R CNN
+F 1 "FDN342P" H 8150 4070 60  0000 R CNN
+	1    8150 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L MOSFET_P Q2
+U 1 1 50636C8D
+P 6750 4250
+F 0 "Q2" H 6750 4440 60  0000 R CNN
+F 1 "FDN342P" H 6750 4070 60  0000 R CNN
+	1    6750 4250
+	1    0    0    1   
+$EndComp
+Text Label 7000 3900 0    60   ~ 0
+VCC
+Text Label 5800 4250 0    60   ~ 0
+DIGIT2
+Text Label 7050 4600 0    60   ~ 0
+AN2
+Text Label 5600 4600 0    60   ~ 0
+AN1
+Text Label 4350 4250 0    60   ~ 0
+DIGIT1
+Text Label 5550 3900 0    60   ~ 0
+VCC
+Text Label 1550 4050 0    60   ~ 0
+GND
+Text Label 1550 3950 0    60   ~ 0
+VCC
+$Comp
+L CONNECTOR_2 P1
+U 1 1 50636A64
+P 1300 4000
+F 0 "P1" H 1300 4150 50  0000 L CNN
+F 1 "Battery" H 1300 3850 50  0000 L CNN
+	1    1300 4000
+	-1   0    0    -1  
+$EndComp
+Text Label 2650 7050 0    60   ~ 0
+VCC
+Text Label 2100 7450 0    60   ~ 0
+CLR
+$Comp
+L MOSFET_P Q1
+U 1 1 50635317
+P 5300 4250
+F 0 "Q1" H 5300 4440 60  0000 R CNN
+F 1 "FDN342P" H 5300 4070 60  0000 R CNN
+	1    5300 4250
+	1    0    0    1   
+$EndComp
+Text Notes 2950 6600 0    60   ~ 0
+I would connect 4 and 5 so we could use \nsoftware UART, but there's simply not \nenough pins for that. 
+NoConn ~ 3800 6100
+NoConn ~ 3800 6000
+$Comp
+L CONNECTOR_6 P2
+U 1 1 5063281F
+P 3450 5950
+F 0 "P2" H 3450 6300 50  0000 L CNN
+F 1 "PRGM Header" H 3450 5600 50  0000 L CNN
+	1    3450 5950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5063261A
+P 3800 6350
+F 0 "#PWR01" H 3800 6350 30  0001 C CNN
+F 1 "GND" H 3800 6280 30  0001 C CNN
+	1    3800 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 50632616
+P 4200 5700
+F 0 "#PWR02" H 4200 5800 30  0001 C CNN
+F 1 "VCC" H 4200 5800 30  0000 C CNN
+	1    4200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_US R2
+U 1 1 50632603
+P 4000 5900
+F 0 "R2" V 4080 5900 50  0000 C CNN
+F 1 "47K" V 3920 5900 50  0000 C CNN
+	1    4000 5900
+	0    1    1    0   
+$EndComp
+Text Label 3550 5900 0    60   ~ 0
+RESET
+Text Label 3600 5800 0    60   ~ 0
+TEST
+Text Label 3650 6200 0    60   ~ 0
+GND
+Text Label 3650 5700 0    60   ~ 0
+VCC
+Text Notes 850  800  0    60   ~ 0
+Operation: \n1. MCU will boot up in extremely low power mode (LPM4) upon battery insertion. EN is high/floating?\n2. Once PREV or NEXT (acting as PWRON) receives a debounced HIGH from the switch between the pin and VCC, the MCU will switch into LPM1 and display either flashing d6 \n(first boot, dX selection of 4, 6, 8, 10, 12, 20, or 100) OR whatever it displayed last time, in which case, a NEXT is required to get it to the flashing d6. \n3. NEXT finishes dX selection, moving on to Y(dX) selection, starting from 1dX and going up to 99 (a moving left-right animation will have to be done for d12-d100). Y will be 1 by default and not flash. \nShort NEXT proceeds, short PREV back. Long press either to enter Y selection where Y flashes. NEXT up, PREV down. Long press again to exit. If the die is d12-d100, the animation will stop so that Y is \ndisplayed flashing for a 5 second period when either NEXT or PREV has been long-pressed. \n4. NEXT goes to number generation. The numbers that the MCU reads from the TEMP ADC + TIMER (so it overflows) are fed continuously through the display.\n5. After a 1 sec delay or a NEXT, the result will be displayed and flash for 5 seconds. Pressing PREV here will loop back to 4, and reroll the same dice. \n6. After 2 minutes of inactivity in any stage, the display will shut down, and the device will enter LPM4.
+Text Label 3600 2300 0    60   ~ 0
+PREV
+Text Label 3600 2200 0    60   ~ 0
+NEXT
+Text Label 3600 2500 0    60   ~ 0
+RESET
+Text Label 3650 2400 0    60   ~ 0
+TEST
+Text Label 3650 2100 0    60   ~ 0
+GND
+Text Label 1300 2100 0    60   ~ 0
+VCC
+Text Label 4400 2850 0    60   ~ 0
+EN
+Text Label 1300 2600 0    60   ~ 0
+DIGIT4
+Text Label 1300 2500 0    60   ~ 0
+DIGIT3
+Text Label 1300 2400 0    60   ~ 0
+DIGIT2
+Text Label 1300 2300 0    60   ~ 0
+DIGIT1
+Text Label 4400 2450 0    60   ~ 0
+SCK
+Text Label 4400 2750 0    60   ~ 0
+LATCH
+Text Label 4400 2250 0    60   ~ 0
+D1IN
+Text Label 1300 2200 0    60   ~ 0
+LATCH
+Text Label 3750 2600 0    60   ~ 0
+EN
+Text Label 3650 2700 0    60   ~ 0
+D1IN
+Text Label 1300 2700 0    60   ~ 0
+SCLK
+$Comp
+L G2X[2/3]1---N14 U1
+U 1 1 505FC32A
+P 2500 2400
+F 0 "U1" H 2550 1950 60  0000 C CNN
+F 1 "MSP430G2231" H 2650 2450 60  0000 C CNN
+	1    2500 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

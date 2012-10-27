@@ -1,0 +1,322 @@
+# EESchema Netlist Version 1.1 created  Tue 09 Oct 2012 04:44:20 PM CDT
+(
+ ( /5063940B SM1812 C1 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /50639448 SM0805 C2 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /507203B7 SM0805 C3 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /506371A5 4DIGIT DIS1 4DIGIT
+  ( 1 N-000012 )
+  ( 2 N-000035 )
+  ( 3 /DP )
+  ( 4 N-000011 )
+  ( 5 N-000010 )
+  ( 6 /AN4 )
+  ( 7 N-000027 )
+  ( 8 /AN3 )
+  ( 9 /AN2 )
+  ( 10 N-000020 )
+  ( 11 N-000034 )
+  ( 12 /AN1 )
+ )
+ ( /50636A64 SIL-2 P1 Battery
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5063281F SIL-6 P2 PRGM_Header
+  ( 1 VCC )
+  ( 2 /TEST )
+  ( 3 /RESET )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 GND )
+ )
+ ( /507104E2 SIL-7 P3 CONNECTOR_7
+  ( 1 VCC )
+  ( 2 /LATCH )
+  ( 3 /DIGIT1 )
+  ( 4 /DIGIT2 )
+  ( 5 /DIGIT3 )
+  ( 6 /DIGIT4 )
+  ( 7 /SCLK )
+ )
+ ( /507104DE SIL-7 P4 CONNECTOR_7
+  ( 1 GND )
+  ( 2 /NEXT )
+  ( 3 /PREV )
+  ( 4 /TEST )
+  ( 5 /RESET )
+  ( 6 /EN )
+  ( 7 /D1IN )
+ )
+ ( /50635317 SOT23GDS Q1 FDN342P
+  ( D /AN1 )
+  ( G N-000021 )
+  ( S VCC )
+ )
+ ( /50636C8D SOT23GDS Q2 FDN342P
+  ( D /AN2 )
+  ( G N-000022 )
+  ( S VCC )
+ )
+ ( /50636C98 SOT23GDS Q3 FDN342P
+  ( D /AN3 )
+  ( G N-000023 )
+  ( S VCC )
+ )
+ ( /50636CA2 SOT23GDS Q4 FDN342P
+  ( D /AN4 )
+  ( G N-000024 )
+  ( S VCC )
+ )
+ ( /50737854 TO92-123 Q5 2N4403
+  ( 1 /AN1 )
+  ( 2 N-000021 )
+  ( 3 VCC )
+ )
+ ( /50737867 TO92-123 Q6 2N4403
+  ( 1 /AN2 )
+  ( 2 N-000022 )
+  ( 3 VCC )
+ )
+ ( /50737869 TO92-123 Q7 2N4403
+  ( 1 /AN3 )
+  ( 2 N-000023 )
+  ( 3 VCC )
+ )
+ ( /5073786A TO92-123 Q8 2N4403
+  ( 1 /AN4 )
+  ( 2 N-000024 )
+  ( 3 VCC )
+ )
+ ( /50636A3F R4_0805 R1 10K
+  ( 1 VCC )
+  ( 2 /CLR )
+ )
+ ( /50632603 R4_0805 R2 47K
+  ( 1 VCC )
+  ( 2 /RESET )
+ )
+ ( /507230C3 R4_0805 R3 56
+  ( 1 N-000034 )
+  ( 2 /A )
+ )
+ ( /507230D2 R4_0805 R4 56
+  ( 1 N-000027 )
+  ( 2 /B )
+ )
+ ( /507230EE R4_0805 R5 56
+  ( 1 N-000011 )
+  ( 2 /C )
+ )
+ ( /507230F0 R4_0805 R6 56
+  ( 1 N-000035 )
+  ( 2 /D )
+ )
+ ( /507230FD R4_0805 R7 56
+  ( 1 N-000012 )
+  ( 2 /E )
+ )
+ ( /507230FC R4_0805 R8 56
+  ( 1 N-000020 )
+  ( 2 /F )
+ )
+ ( /507230FB R4_0805 R9 56
+  ( 1 N-000010 )
+  ( 2 /G )
+ )
+ ( /507230FA R4_0805 R10 56
+  ( 1 /DP )
+  ( 2 /DP_O )
+ )
+ ( /507250F4 R4_0805 R11 1K
+  ( 1 N-000021 )
+  ( 2 /DIGIT1 )
+ )
+ ( /50725206 R4_0805 R12 1K
+  ( 1 N-000022 )
+  ( 2 /DIGIT2 )
+ )
+ ( /50725207 R4_0805 R13 1K
+  ( 1 N-000023 )
+  ( 2 /DIGIT3 )
+ )
+ ( /50725209 R4_0805 R14 1K
+  ( 1 N-000024 )
+  ( 2 /DIGIT4 )
+ )
+ ( /50636CFA PUSH_SMD6x6 SW1 SW_PUSH
+  ( 1 VCC )
+  ( 2 /NEXT )
+ )
+ ( /50636CFC PUSH_SMD6x6 SW2 SW_PUSH
+  ( 1 VCC )
+  ( 2 /PREV )
+ )
+ ( /505FC32A DIP-14__300_ELL U1 MSP430G2231
+  ( 1 VCC )
+  ( 2 /LATCH )
+  ( 3 /DIGIT1 )
+  ( 4 /DIGIT2 )
+  ( 5 /DIGIT3 )
+  ( 6 /DIGIT4 )
+  ( 7 /SCLK )
+  ( 8 /D1IN )
+  ( 9 /EN )
+  ( 10 /RESET )
+  ( 11 /TEST )
+  ( 12 /PREV )
+  ( 13 /NEXT )
+  ( 14 GND )
+ )
+ ( /505FC3D7 SO16N U2 74HC595
+  ( 1 /B )
+  ( 2 /C )
+  ( 3 /D )
+  ( 4 /E )
+  ( 5 /F )
+  ( 6 /G )
+  ( 7 /DP_O )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 /CLR )
+  ( 11 /SCK )
+  ( 12 /LATCH )
+  ( 13 /EN )
+  ( 14 /D1IN )
+  ( 15 /A )
+  ( 16 VCC )
+ )
+ ( /507100CB SSOP14 U3 MSP430G2231
+  ( 1 VCC )
+  ( 2 /LATCH )
+  ( 3 /DIGIT1 )
+  ( 4 /DIGIT2 )
+  ( 5 /DIGIT3 )
+  ( 6 /DIGIT4 )
+  ( 7 /SCLK )
+  ( 8 /D1IN )
+  ( 9 /EN )
+  ( 10 /RESET )
+  ( 11 /TEST )
+  ( 12 /PREV )
+  ( 13 /NEXT )
+  ( 14 GND )
+ )
+ ( /50739FE9 DIP-16__300_ELL U4 74HC595
+  ( 1 /B )
+  ( 2 /C )
+  ( 3 /D )
+  ( 4 /E )
+  ( 5 /F )
+  ( 6 /G )
+  ( 7 /DP_O )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 /CLR )
+  ( 11 /SCK )
+  ( 12 /LATCH )
+  ( 13 /EN )
+  ( 14 /D1IN )
+  ( 15 /A )
+  ( 16 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+ C?
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component P1
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P2
+ PAD_6
+ BORNIER_6*
+$endlist
+$component P3
+ PAD_6
+ BORNIER_6*
+$endlist
+$component P4
+ PAD_6
+ BORNIER_6*
+$endlist
+$component R1
+ R?
+ R_*
+$endlist
+$component R2
+ R?
+ R_*
+$endlist
+$component R3
+ R?
+ R_*
+$endlist
+$component R4
+ R?
+ R_*
+$endlist
+$component R5
+ R?
+ R_*
+$endlist
+$component R6
+ R?
+ R_*
+$endlist
+$component R7
+ R?
+ R_*
+$endlist
+$component R8
+ R?
+ R_*
+$endlist
+$component R9
+ R?
+ R_*
+$endlist
+$component R10
+ R?
+ R_*
+$endlist
+$component R11
+ R?
+ R_*
+$endlist
+$component R12
+ R?
+ R_*
+$endlist
+$component R13
+ R?
+ R_*
+$endlist
+$component R14
+ R?
+ R_*
+$endlist
+$endfootprintlist
+}
