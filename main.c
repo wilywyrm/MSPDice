@@ -64,26 +64,6 @@ int main(void)
 	//USISRL = 0xFF; // start up cleared
   USICTL0 &= ~USISWRST; // allow the USI to function
 	
-  /* Configure ADC Temp Sensor Channel */
-	/*
-  ADC10CTL1 = INCH_10 + ADC10DIV_3;         // Temp Sensor ADC10CLK/4
-  ADC10CTL0 = SREF_1 + ADC10SHT_0 + REFON + ADC10ON + ADC10IE;
-  //__delay_cycles(1000);                     // Wait for ADC Ref to settle
-	//__delay_cycles(10);                     
-	// let's get a FUBAR seed value (no delay)
-  ADC10CTL0 |= ENC + ADC10SC;               // Sampling and conversion start
-	unsigned int seed = ADC10MEM;
-  
-	__delay_cycles(900); // let ADC settle
-
-  for (unsigned char i = 0; i < 30; i++) {
-    seed += ADC10MEM; // overflow? what's that?
-		__delay_cycles(100);	
-	}
-  //tempAverage = tempCalibrated;
-
-	ADC10CTL0 &= ~ENC + ~ADC10SC + ADC10IE; // disable ADC and interrupt
-	*/
 	//srand(seed); 
 	// we'll seed using the TAR value when the user presses a button
   CCR0 = 40000; // timer is on SMCLK/4 (125kHz)
@@ -111,8 +91,8 @@ interrupt(PORT2_VECTOR) PORT2_ISR(void)
 
 	switch(P2IFG)
 	{
-		case NEXT: a++;// if P2.6 (NEXT)...
-		case PREV: a++;// if P2.7 (PREV)...
+		case NEXT: a=a;// if P2.6 (NEXT)...
+		case PREV: a=a;// if P2.7 (PREV)...
 	}
 	
 	
@@ -153,15 +133,9 @@ interrupt(TIMER0_A1_VECTOR) refresh(void)
 
 			a = (a + 1) % NUMDIGITS;		
 			P1OUT |= LATP; // latch goes high
-
-			//__delay_cycles(3000); // this prevents the display from blending together, but, god, i need to get rid of that for efficiency
 			break;
 		case 0x0A:
 			TARCycles++;
+			break;
 	}
-}
-
-interrupt(ADC10_VECTOR) ADC10_ISR (void)
-{
-  __bic_SR_register_on_exit(CPUOFF);        // Return to active mode
 }
